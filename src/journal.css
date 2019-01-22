@@ -1,0 +1,26 @@
+.body {
+  background-color: rgb(185, 187, 196)
+}
+
+.header{
+  font-style: oblique;
+  display: flex;
+  color: rgb(61, 62, 67)
+}
+
+.journalDate{
+  border: ridge;
+  background-color: lightgrey;
+  display: flex;
+  border-radius: 5px
+}
+
+.btn{
+  display: flex;
+  padding: 5px;
+  border-radius: 5px
+}
+
+.input {
+  border-radius: 5px;
+}
