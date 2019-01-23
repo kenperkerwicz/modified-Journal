@@ -11,31 +11,49 @@
 
   <body class="body">
     <h1 class="header">Daily Journal</h1>
+
     <form>
-      <fieldset class="journalDate">
+      <fieldset class="journalDate" id="dateOfEntry">
         <label>Date of entry</label>
         <input type="date" class="input">
       </fieldset>
     </form>
-    <fieldset class="journalDate">
-      <label>Concepts Covered</label>
-      <input type="text" class="input">
-    </fieldset>
-    <fieldset class="journalDate">
-      <label>Journal Entry</label>
-      <input type="text" class="input">
-    </fieldset>
-    <a href="http://www.google.com/" target="_blank">
-    </a>
-    <form class="journalDate">
+
+    <form>
+      <fieldset class="journalDate" id="concepts covered">
+        <label>Concepts Covered</label>
+        <input type="text" class="input">
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset class="journalDate" id="journalEntry">
+        <label>Journal Entry</label>
+        <input type="text" class="input">
+      </fieldset>
+    </form>
+
+    <form>
+      <a href="http://www.google.com/" target="_blank">
+      </a>
+    </form>
+
+    <form class="journalDate" id="moodOfTheDay">
       <label>Mood of Day</label>
       <select>
         <option>Happy</option>
         <option>Sad</option>
         <option>Great</option>
+        <option>Bad</option>
       </select>
     </form>
+    <article class="entryLog">
+
+    </article>
+
     <script src="./journal.js"></script>
   </body>
+
   <button type="button" class="btn">Record Journal Entry</button>
+
 </html>
