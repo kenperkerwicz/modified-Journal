@@ -1,4 +1,4 @@
-const objectsJournalEntries = [
+const journalEntries = [
   {journalDate: "1/18/19",
   conceptsCovered: "functions",
   journalEntry: "Today was a productive yet humbling day",
