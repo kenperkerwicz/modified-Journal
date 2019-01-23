@@ -11,8 +11,8 @@ const journalEntries = [
 
   {journalDate: "1/22/19",
   conceptsCovered: "back to functions",
-  journalEntry: "Today was a day full of lightning exercises and frustration",
-  moodOfTheDay: "Bad"}
+  journalEntry: "Today was a day full of lightning exercises and learning",
+  moodOfTheDay: "Great"}
 
 ]
 
