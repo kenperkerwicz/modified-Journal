@@ -2,7 +2,7 @@ const journalEntries = [
   {journalDate: "1/18/19",
   conceptsCovered: "functions",
   journalEntry: "Today was a productive yet humbling day",
-  moodOfTheDay: "Sad"},
+  moodOfTheDay: "Happy"},
 
   {journalDate: "1/20/19",
   conceptsCovered: "reviewing Git",
@@ -15,3 +15,4 @@ const journalEntries = [
   moodOfTheDay: "Bad"}
 
 ]
+

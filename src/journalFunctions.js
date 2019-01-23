@@ -1,29 +1,29 @@
 
 
-
-
-function makeJournalEntryComponent (journalEntry) {
+function makeJournalEntryComponent (journalEntries) {
   return `
-  <div> ${journalEntries.dateofEntry} </div>
-  <div> ${journalEntries.conceptsCovered} </div>
+  <div class="divdate"> ${journalEntries.journalDate} </div>
+  <break>
+  <div class=""> ${journalEntries.conceptsCovered} </div>
   <div> ${journalEntries.journalEntry} </div>
-  
 `
 }
 
 
 const renderJournalEntries = (entries) => {
  for (let index = 0; index < entries.length; index++) {
-   const element = entires[index];
+   const element = makeJournalEntryComponent(entries[index]);
     printToDom(element)
  }
 }
 
-function printToDom (item) {
-  document.querySelector('entrylog').innerHTML += makeJournalEntryComponent
+function printToDom (makeJournalEntryComponent) {
+ const el = document.getElementById("entryLog")
+el.innerHTML += makeJournalEntryComponent
 }
 
 // Invoke the render function
 
-renderJournalEntries(journalEntries)
+renderJournalEntries(journalEntries);
+
 
