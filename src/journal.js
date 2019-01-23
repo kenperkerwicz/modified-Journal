@@ -1,18 +1,8 @@
-const journalEntries = [
-  {journalDate: "1/18/19",
-  conceptsCovered: "functions",
-  journalEntry: "Today was a productive yet humbling day",
-  moodOfTheDay: "Happy"},
 
-  {journalDate: "1/20/19",
-  conceptsCovered: "reviewing Git",
-  journalEntry: "bad bad not good",
-  moodOfTheDay: "Bad"},
 
-  {journalDate: "1/22/19",
-  conceptsCovered: "back to functions",
-  journalEntry: "Today was a day full of lightning exercises and learning",
-  moodOfTheDay: "Great"}
-
-]
-
+fetch("http://localhost:3000/entries") // Fetch from the API
+.then(response => response.json())  // Parse as JSON
+.then(entries => {
+    // What should happen when we finally have the array?
+    entries.forEach()
+})
