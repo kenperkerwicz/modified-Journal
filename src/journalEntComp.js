@@ -2,11 +2,11 @@
 
 function makeJournalEntryComponent (element) {
   return `
-  <div class="divdate"> <strong>${journal}</strong> </div>
+  <div class="divdate"> <strong>${element.journal}</strong> </div>
   <break>
-  <div class=""> ${concept}</div>
-  <div> ${entry} </div>
- <div ${mood} </div>
+  <div class=""> ${element.concept}</div>
+  <div> ${element.entry} </div>
+ <div ${element.mood} </div>
 `
 }
 
