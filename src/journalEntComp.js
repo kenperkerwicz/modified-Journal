@@ -2,13 +2,15 @@
 
 function makeJournalEntryComponent (element) {
   return `
-  <div class="divdate"> <strong>${element.journal}</strong> </div>
+  <div class="divdate"> <strong>${element.journalDate}</strong> </div>
   <break>
-  <div class=""> ${element.concept}</div>
-  <div> ${element.entry} </div>
- <div ${element.mood} </div>
+  <div class=""> ${element.conceptsCovered}</div>
+  <div> ${element.journalEntry} </div>
+ <div> ${element.moodOfTheDay} </div>
 `
+
 }
+
 
 
 // const renderJournalEntries = (entries) => {

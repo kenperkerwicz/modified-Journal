@@ -3,3 +3,4 @@ function printToDom (makeJournalEntryComponent) {
  el.innerHTML += makeJournalEntryComponent
  }
  
+ 

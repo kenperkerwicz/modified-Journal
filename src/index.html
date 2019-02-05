@@ -13,23 +13,23 @@
     <h1 class="header">Daily Journal</h1>
 
     <form>
-      <fieldset class="journalDate" id="dateOfEntry">
+      <fieldset class="journalDate">
         <label>Date of entry</label>
-        <input type="date" class="input">
+        <input type="date" class="input" id="dateOfEntry">
       </fieldset>
     </form>
 
     <form>
-      <fieldset class="journalDate" id="conceptscovered">
+      <fieldset class="journalDate">
         <label>Concepts Covered</label>
-        <input type="text" class="input">
+        <input type="text" class="input" id="conceptscovered">
       </fieldset>
     </form>
 
     <form>
-      <fieldset class="journalDate" id="journalEntry">
+      <fieldset class="journalDate">
         <label>Journal Entry</label>
-        <input type="text" class="input">
+        <input type="text" class="input" id="journalEntry">
       </fieldset>
     </form>
 
@@ -38,9 +38,9 @@
       </a>
     </form>
 
-    <form class="journalDate" id="moodOfTheDay">
-      <label>Mood of Day</label>
-      <select>
+    <form class="journalDate" >
+      <label >Mood of Day</label>
+      <select id="moodOfTheDay">
         <option>Happy</option>
         <option>Sad</option>
         <option>Great</option>
@@ -52,8 +52,8 @@
 
     </article>
     <script src="data.js"></script>
-    <script src="entriesDOM.js"></script>
-    <script src="entryComponent.js"></script>
+    <script src="printToDom.js"></script>
+    <script src="journalEntComp.js"></script>
     <script src="./scripts/journal.js"></script>
     
    
